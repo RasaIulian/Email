@@ -23,12 +23,18 @@
       }
       a {
         text-decoration: none;
-        color: #ffffff;
+        color: #565656;
         /* font-size: 16px; */
       }
       .content {
         line-height: 20px;
         font-size: 15px;
+      }
+      .background-blue {
+        background-color: #277fd2;
+      }
+      .pad5 {
+        padding: 5px;
       }
 
       @media screen and (max-width: 684px) {
@@ -89,6 +95,12 @@
         }
         .darkmode-transparent {
           background-color: transparent !important;
+        }
+        a {
+          color: #ffffff !important;
+        }
+        .background-blue {
+          background-color: #2d2d2d;
         }
       }
     </style>
@@ -434,15 +446,16 @@
                               </td>
                             </tr>
                             <tr>
-                              <td style="padding-left: 25px">
+                              <td>
                                 <a
+                                  class="pad5"
                                   align="center"
                                   valign="center"
                                   href="https://example.com"
                                   target="_blank"
                                   style="
                                     display: inline-block;
-                                    font-size: 15px;
+                                    font-size: 16px;
                                     font-weight: bold;
                                     color: #ffffff;
                                     background-color: #277fd2;
@@ -502,7 +515,7 @@
                                 height="4"
                                 style="
                                   background-color: #2cbc8c;
-                                  padding-bottom: 10px;
+                                  margin-bottom: 10px;
                                   height: 4px;
                                   width: 180px;
                                 "
@@ -534,11 +547,12 @@
                     <tr>
                       <td align="center" style="padding-bottom: 30px">
                         <a
+                          class="pad5"
                           href="https://example.com"
                           target="_blank"
                           style="
                             display: inline-block;
-                            font-size: 15px;
+                            font-size: 16px;
                             font-weight: bold;
                             color: #ffffff;
                             background-color: #2cbc8c;
@@ -633,8 +647,9 @@
                               </td>
                             </tr>
                             <tr>
-                              <td align="left" style="padding-top: 15px">
+                              <td align="center" style="padding-top: 15px">
                                 <a
+                                  class="pad5"
                                   style="
                                     display: inline-block;
                                     font-size: 16px;
@@ -710,8 +725,9 @@
                               </td>
                             </tr>
                             <tr>
-                              <td align="left" style="padding-top: 15px">
+                              <td align="center" style="padding-top: 15px">
                                 <a
+                                  class="pad5"
                                   style="
                                     display: inline-block;
                                     font-size: 16px;
@@ -772,7 +788,7 @@
                       </td>
                       <td
                         align="center"
-                        style="padding: 30px 0; text-align: center"
+                        style="padding: 30px; text-align: center"
                       >
                         <table align="center" style="text-align: center">
                           <tr>
@@ -787,10 +803,11 @@
                               "
                             >
                               <a
+                                class="pad5"
                                 href="https://example.com"
                                 target="_blank"
                                 style="
-                                  font-size: 17px;
+                                  font-size: 16px;
                                   font-weight: bold;
                                   color: #ffffff;
                                   background-color: #2cbc8c;
@@ -853,7 +870,7 @@
                                 <img
                                   width="160"
                                   height="60"
-                                  src="https://i.ibb.co/M6WP8Xy/w3newbie-white.png"
+                                  src="https://i.ibb.co/gmhMwVq/w3newbie.png"
                                   alt="w3 newbie img"
                                   style="width: 100%; width: 160px"
                                 />
@@ -861,6 +878,7 @@
                             </tr>
                             <tr align="center" style="text-align: center">
                               <td
+                                class="background-blue"
                                 style="
                                   padding-top: 5px;
                                   padding-right: 0;
@@ -1031,7 +1049,7 @@
                             display: inline-block;
                             text-align: center;
                             border-spacing: 0;
-                            padding: 20px;
+                            padding: 0 20px 20px;
                             width: 100%;
                             max-width: 180px;
                           "
@@ -1039,7 +1057,12 @@
                         >
                           <tbody>
                             <tr>
-                              <td style="text-align: center">
+                              <td
+                                style="
+                                  text-align: center;
+                                  padding: 5px 0 10px 0;
+                                "
+                              >
                                 <p
                                   valign="middle"
                                   style="margin: 0; font-weight: bold"
@@ -1101,8 +1124,8 @@
                   text-align: center;
                   border-top: 2px solid #c4c7c9;
                   width: 600px;
-                  background-color: #585858;
                   height: 85px;
+                  background-color: #277fd2;
                 "
               >
                 <a
